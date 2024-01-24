@@ -1,5 +1,5 @@
-from .compress import compress_css
+from .compress import compress_js
 import pathlib
 
 def main():
-    compress_css(filePath=pathlib.Path("./pypress/file.css").absolute(), output=pathlib.Path("./pypress/compress.file.css").absolute())
+    compress_js(filePath=pathlib.Path("./pypress/file.js").absolute(), output=pathlib.Path("./pypress/compress.file.js").absolute())
